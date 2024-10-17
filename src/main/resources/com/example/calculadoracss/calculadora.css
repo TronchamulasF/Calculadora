@@ -1,0 +1,38 @@
+Button {
+    -fx-font: Arial;
+    -fx-font-size: 16px;
+    -fx-background-color: #f2f2f2;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-padding: 10px;
+}
+GridPane {
+    -fx-background-color: white;
+    -fx-font-size: 24px;
+}
+#operator{
+    -fx-background-color: #D2F4E4;
+    -fx-font-color: #2D572C;
+}
+
+#igual{
+    -fx-background-color: #F0A3AC;
+}
+Button:hover {
+    -fx-background-color: #A3CEEF;
+}
+Button:pressed {
+    -fx-background-color: #091c47;
+}
+#operator:hover {
+    -fx-background-color: #FFDB58;
+}
+#operator:pressed {
+    -fx-background-color: #808000;
+}
+#igual:hover{
+    -fx-background-color: #5e1914;
+}
+#igual:pressed{
+    -fx-background-color: black;
+}
